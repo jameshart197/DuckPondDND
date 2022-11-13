@@ -19,4 +19,4 @@ const hovermenu = document.getElementById("hover-menu");
     });
 
 }));
-hovermenu.addEventListener("mouseleave", ()=>hovermenu.style.display="none");
+hovermenu.addEventListener("mouseleave",() =>hovermenu.style.display="none");

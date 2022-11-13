@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
+
 body {
     padding: 0;
     margin: 0;
@@ -17,8 +19,44 @@ header {
     background-color: rgb(44, 44, 44);
 }
 
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    width: 100%;
+    font-size: 180%;
+    color: rgb(152, 4, 238);
+    text-align: center;
+    font-family: 'Lobster Two', sans-serif;
+}
+
+.header-right {
+    width: 65%;
+}
+
 .header-section {
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#social-tags a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    padding: .2em;
 }
 
 .nav-menu {
