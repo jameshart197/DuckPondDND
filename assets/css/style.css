@@ -7,6 +7,12 @@ body {
     width: 120px;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
 header {
     background-color: rgb(44, 44, 44);
 }
@@ -18,8 +24,6 @@ header {
 .nav-menu {
     background-color: purple;
     display: inherit;
-    padding: 0;
-    margin: 0;
     width: 100vw;
     justify-content: space-evenly;
 }
@@ -29,16 +33,16 @@ header {
     text-decoration: none;
     cursor: pointer;
     padding: .5em;
-    list-style: none;
 }
 
 #hover-menu {
-    height: 15em;
     width: 96vw;
     background-color: rgb(44, 44, 44);
     position: absolute;
     margin: 0 2vw;
     display: none;
+    box-sizing: border-box;
+    padding: 1em;
 }
 
 .dropdown-menu {
@@ -46,13 +50,10 @@ header {
     padding: 0;
     justify-content: space-evenly;
     color: white;
-}
-
-.dropdown-menu ul {
-    list-style-type: none;
+    flex: 1 1 0px;
 }
 
 .dropdown-menu a {
     text-decoration: none;
-    color: rgb(116, 116, 116);
+    color: rgb(134, 115, 139);
 }
