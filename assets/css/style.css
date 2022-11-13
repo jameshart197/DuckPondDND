@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#logo img {
+    width: 120px;
+}
+
+header {
+}
+
+.header-section {
+    display: flex;
+}
+
+.nav-menu {
+    background-color: purple;
+    display: inherit;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+
+.nav-menu > * {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: .5em;
+    list-style: none;
+}
+
+.hover-menu {
+    height: 3em;
+    width: 90vw;
+    background-color: grey;
+}
