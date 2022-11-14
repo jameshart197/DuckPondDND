@@ -117,10 +117,10 @@ header {
     text-align: center;
 }
 
-#xandros-state {
+.world-page-main-image {
     display: flex;
     justify-content: center;
 }
-#xandros-state img {
+.world-page-main-image img {
     max-width: 800px;
 }
