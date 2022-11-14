@@ -5,6 +5,26 @@ body {
     margin: 0;
 }
 
+p {
+    font-size: 1.2em;
+    font-family:'Times New Roman', Times, serif
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+th {
+    font-size: 150%;
+    padding: 1em;
+}
+
 #logo img {
     width: 120px;
 }
@@ -90,4 +110,17 @@ header {
 .dropdown-menu a {
     text-decoration: none;
     color: rgb(134, 115, 139);
+}
+
+.world-page-title {
+    font-size: 3em;
+    text-align: center;
+}
+
+#xandros-state {
+    display: flex;
+    justify-content: center;
+}
+#xandros-state img {
+    max-width: 800px;
 }
