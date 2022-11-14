@@ -169,3 +169,10 @@ header {
     padding: .1em;
     font-weight: bolder;
 }
+
+#character-image {
+    max-width: 400px;
+    max-height: 400px;
+    float: right;
+    padding: 2em;
+}
