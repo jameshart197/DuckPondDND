@@ -7,7 +7,7 @@ body {
 
 p {
     font-size: 1.2em;
-    font-family:'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif
 }
 
 main {
@@ -82,7 +82,7 @@ header {
     justify-content: space-evenly;
 }
 
-.nav-menu > * {
+.nav-menu>* {
     color: white;
     text-decoration: none;
     cursor: pointer;
@@ -121,7 +121,41 @@ header {
     display: flex;
     justify-content: center;
 }
+
 .world-page-main-image img {
     max-width: 700px;
     max-height: 700px;
+}
+
+/* Accordion styling for classes */
+
+.classes-accordion-button {
+    background-color: rgb(223, 158, 253);
+    color: rgb(45, 43, 46);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+    border: thin, black, solid;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active,
+.classes-accordion-button:hover {
+    background-color: rgb(13, 233, 233);
+    cursor: pointer;
+}
+
+
+.classes-accordion-panel {
+    padding: 0 18px;
+    background-color: rgb(236, 220, 240);
+    color: black;
+    display: none;
+    overflow: hidden;
+    border: thin, black, solid;
+    box-sizing: border-box;
 }
