@@ -129,7 +129,7 @@ header {
 
 /* Accordion styling for classes */
 
-.classes-accordion-button {
+.worldpage-accordion-button {
     background-color: rgb(223, 158, 253);
     color: rgb(45, 43, 46);
     cursor: pointer;
@@ -144,13 +144,13 @@ header {
 }
 
 .active,
-.classes-accordion-button:hover {
+.worldpage-accordion-button:hover {
     background-color: rgb(13, 233, 233);
     cursor: pointer;
 }
 
 
-.classes-accordion-panel {
+.worldpage-accordion-panel {
     padding: 0 18px;
     background-color: rgb(236, 220, 240);
     color: black;

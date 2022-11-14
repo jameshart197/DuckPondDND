@@ -1,7 +1,7 @@
-let classAccordionButton = document.getElementsByClassName('classes-accordion-button');
+let worldpageAccordionButton = document.getElementsByClassName('worldpage-accordion-button');
 
-for (i = 0; i < classAccordionButton.length; i++) {
-    classAccordionButton[i].addEventListener('click', function () {
+for (i = 0; i < worldpageAccordionButton.length; i++) {
+    worldpageAccordionButton[i].addEventListener('click', function () {
         this.classList.toggle('active');
         let panel = this.nextElementSibling;
         if (panel.style.display === "block") {
