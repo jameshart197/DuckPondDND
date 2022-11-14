@@ -1,5 +1,5 @@
-const hoverli = document.getElementsByClassName("hover-li");
-const hovermenu = document.getElementById("hover-menu");
+let hoverli;
+let hovermenu;
 
 [...hoverli].forEach((li)=>li.addEventListener("mouseover", ()=> {
     hovermenu.style.display="block";
@@ -19,4 +19,5 @@ const hovermenu = document.getElementById("hover-menu");
     });
 
 }));
+
 hovermenu.addEventListener("mouseleave",() =>hovermenu.style.display="none");

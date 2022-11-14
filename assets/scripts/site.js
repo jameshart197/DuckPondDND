@@ -5,6 +5,8 @@ fetch("/assets/commoncontrols/header.html").then((response)=> {
     return response.text();
 }).then((html)=> {
     headerElement.innerHTML = html;
+    hoverli = document.getElementsByClassName("hover-li");
+    hovermenu = document.getElementById("hover-menu");
 }).catch((err)=> {
     console.warn('Something went wrong.', err);
     headerElement.innerHTML = '';
