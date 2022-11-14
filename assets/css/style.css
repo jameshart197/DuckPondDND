@@ -37,19 +37,15 @@ header {
     width: 65%;
 }
 
+.header-menu {
+    width: 100%;
+}
+
 .header-section {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     box-sizing: border-box;
-}
-
-.header-menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    box-sizing: border-box;
-    width: 100%;
 }
 
 #social-tags a {
