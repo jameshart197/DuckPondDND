@@ -159,3 +159,13 @@ header {
     border: thin, black, solid;
     box-sizing: border-box;
 }
+
+#guild-list {
+    padding: 1em;
+}
+
+#guild-list li {
+    font-size: 120%;
+    padding: .1em;
+    font-weight: bolder;
+}
