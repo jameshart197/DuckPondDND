@@ -3,7 +3,7 @@ const registerHoverMenuEvents = (hoverli, hovermenu, headertop)=> {
     hovermenu.style.display="block";
     
     const submenu=li.getAttribute("data-menu")+".html";
-    fetch('/assets/HoverMenus/'+submenu).then(function (response) {
+    fetch('/assets/hovermenus/'+submenu.toLowerCase()).then(function (response) {
         return response.text();
     }).then(function (html) {
         hovermenu.innerHTML = html;
