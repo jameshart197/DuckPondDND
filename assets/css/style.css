@@ -4,7 +4,7 @@ body {
     padding: 0;
     padding-bottom: 8rem;
     margin: 0;
-    min-height: 100vh;
+    min-height: 86vh;
     position: relative;
 }
 
@@ -196,4 +196,10 @@ header {
     max-height: 400px;
     float: right;
     padding: 2em;
+}
+
+#home-return {
+    font-size: 150%;
+    text-decoration: none;
+
 }
