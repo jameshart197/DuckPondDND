@@ -191,7 +191,7 @@ header {
     font-weight: bolder;
 }
 
-#character-image {
+.character-image {
     max-width: 400px;
     max-height: 400px;
     float: right;
