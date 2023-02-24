@@ -29,6 +29,10 @@ main {
     margin: 0 auto;
 }
 
+main div {
+    padding: 1em;
+}
+
 .flex-container {
     display: flex;
     justify-content: space-evenly;
@@ -263,4 +267,26 @@ header {
     background-position-y: center;
     height: 180px;
     width: 400px;
+}
+
+.faction-table {
+    border: 10px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2em 0;
+}
+
+.faction-table th, td {
+    border: 2px solid black;
+    margin: 0;
+}
+
+.faction-table td {
+    padding: 1em;
+    font-size: 1.2em;
+    font-family: 'Open Sans';
+}
+
+.table-bold {
+    font-weight: bold;
 }
