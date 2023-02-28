@@ -290,3 +290,45 @@ header {
 .table-bold {
     font-weight: bold;
 }
+
+.map {
+    max-width: 100%;
+}
+
+/*Click to Zoom */
+
+.click-zoom {
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+}
+
+.click-zoom input[type=checkbox] {
+    display: none
+  }
+  
+  .click-zoom img {
+    margin: 10px;
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
+  }
+  
+  .click-zoom input[type=checkbox]:checked~img {
+    transform: scale(2);
+    cursor: zoom-out;
+  }
+
+  .class-list a {
+    text-decoration: none;
+    color: rgb(0, 17, 255);
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  .class-list li {
+    padding: 0.5em;
+  }
+
+  .class-list a:hover {
+    color: rgb(152, 4, 238);
+  }
