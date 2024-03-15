@@ -362,6 +362,9 @@ header {
     font-family: 'Lobster Two', sans-serif;
     font-size: 3em;
     font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .world-index li {  
@@ -388,7 +391,7 @@ header {
 
 .world-info-index span {
   max-height: 30%;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .calendar-image {
