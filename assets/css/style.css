@@ -409,3 +409,12 @@ header {
     flex-direction: column;
     align-items: center;
 }
+
+#rules-list {
+    list-style-type: circle;
+    margin-left: 2em;
+}
+#rules-list li {
+    font-size: 18px;
+    padding: 0.4em;
+}
