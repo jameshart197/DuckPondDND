@@ -147,6 +147,10 @@ header {
     max-height: 700px;
 }
 
+#currency {
+    font-weight: normal
+}
+
 /* Accordion styling for classes */
 
 .worldpage-accordion-button {
